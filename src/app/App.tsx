@@ -1277,45 +1277,32 @@ function CovoituragePage() {
                       {copiedId?.id === driver.id && copiedId?.type === 'all' ? '✓ Copié !' : '📋 Tout'}
                     </button>
                   </div>
-
-                          <div className="space-y-2">
-                            {driver.passagers.map((p: any) => (
-                              <div key={p.id} className="bg-[#FF4D8F]/10 border border-[#FF4D8F]/30 px-4 py-3 rounded-lg">
-                                <div className="flex flex-wrap items-center justify-between gap-3">
-                                  <div className="flex-1">
-                                    <div className="text-sm text-[#E0F4F8] font-medium">
-                                      {p.prenom} {p.nom}
-                                    </div>
-                                    <div className="text-xs text-[#4A8898] mt-1 flex flex-wrap gap-3">
-                                      {p.instagram && (
-                                        <a
-                                          href={formatInstagramUrl(p.instagram)}
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          onClick={(e) => e.stopPropagation()}
-                                          className="hover:text-[#FF4D8F] transition-colors"
-                                        >
-                                          📷 {p.instagram}
-                                        </a>
-                                      )}
-                                      {p.telephone && <span>📱 {p.telephone}</span>}
-                                    </div>
-                                  </div>
-                                  <button
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      removePassenger(driver.id, p.id);
-                                    }}
-                                    className="text-[#FF4D8F] hover:text-[#E0F4F8] hover:bg-[#FF4D8F]/20 w-8 h-8 rounded-full flex items-center justify-center transition-all text-lg font-bold"
-                                    title="Retirer ce passager"
-                                  >
-                                    ×
-                                  </button>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-
+                  <div className="mt-4 pt-4 border-t border-[#1A3A4A]">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="text-[10px] tracking-[2px] text-[#4A8898] font-medium uppercase">Passagers confirmés</div>
+                      <div className="flex gap-2 flex-wrap">
+                        <button
+                          onClick={(e) => { e.stopPropagation(); copyCarContacts(driver, 'instagram'); }}
+                          className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors"
+                        >
+                          {copiedId?.id === driver.id && copiedId?.type === 'instagram' ? '✓ Copié !' : '📷 Instagrams'}
+                        </button>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); copyCarContacts(driver, 'telephone'); }}
+                          className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors"
+                        >
+                          {copiedId?.id === driver.id && copiedId?.type === 'telephone' ? '✓ Copié !' : '📱 Téléphones'}
+                        </button>
+                        <button
+                          onClick={(e) => { e.stopPropagation(); copyCarContacts(driver, 'all'); }}
+                          className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors"
+                        >
+                          {copiedId?.id === driver.id && copiedId?.type === 'all' ? '✓ Copié !' : '📋 Tout'}
+                        </button>
+                      </div>
+                    </div>
+                  
+                    <div className="space-y-2">
                           {/* Infos du conducteur */}
                           <div className="mt-3 bg-[#00C8D8]/10 border border-[#00C8D8]/30 px-4 py-3 rounded-lg">
                             <div className="flex flex-wrap items-center justify-between gap-3">
