@@ -1263,12 +1263,12 @@ function CovoituragePage() {
                           <div className="flex items-center justify-between mb-3">
                             <div className="text-[10px] tracking-[2px] text-[#4A8898] font-medium uppercase">Passagers confirmés</div>
                            <div className="flex gap-2 flex-wrap">
-                            <button onClick={(e) => { e.stopPropagation(); copyCarContacts(driver, 'instagram'); }} className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors">
-                              {copiedId?.id === driver.id && copiedId?.type === 'instagram' ? '✓ Copié !' : '📷 Instagram'}
-                            </button>
-                            <button onClick={(e) => { e.stopPropagation(); copyCarContacts(driver, 'telephone'); }} className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors">
-                              {copiedId?.id === driver.id && copiedId?.type === 'telephone' ? '✓ Copié !' : '📱 Téléphones'}
-                            </button>
+                            <button onClick={(e) => { e.preventDefault(); e.stopPropagation(); copyCarContacts(driver, 'instagram'); }} className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors">
+                            {copiedId?.id === driver.id && copiedId?.type === 'instagram' ? '✓ Copié !' : '📷 Instagrams'}
+                          </button>
+                          <button onClick={(e) => { e.preventDefault(); e.stopPropagation(); copyCarContacts(driver, 'telephone'); }} className="text-xs bg-[#00C8D8]/20 hover:bg-[#00C8D8]/30 text-[#00C8D8] px-3 py-1.5 rounded transition-colors">
+                            {copiedId?.id === driver.id && copiedId?.type === 'telephone' ? '✓ Copié !' : '📱 Téléphones'}
+                          </button>
                           </div>
                           </div>
 
