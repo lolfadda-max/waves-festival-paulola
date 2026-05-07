@@ -272,9 +272,9 @@ function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-16">
           {[
             { label: 'Dates', value: '17–19\nJuillet 2026', color: '#007A8A', Icon: Calendar, link: null },
-            { label: 'Lieu', value: 'Morin, Plufur\nBretagne', color: '#00C8D8', Icon: MapPin, link: 'https://www.google.com/maps/place/Morin,+22310+Plufur/@48.5924785,-3.582648,15z/data=!3m1!4b1!4m6!3m5!1s0x48117ec8bd898feb:0xa9bf00dd46603f6b!8m2!3d48.592479!4d-3.582648!16s%2Fg%2F1tqtx8pg?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D' },
-            { label: 'Format', value: '3 jours\n2 nuits', color: '#FF4D8F', Icon: Clock, link: null },
-            { label: 'Scène', value: '1 scène\nintérieure', color: '#F6CC45', Icon: Radio, link: null }
+            { label: 'Lieu', value: 'Morin, Plufur\nBretagne', color: '#FF4D8F', Icon: MapPin, link: 'https://www.google.com/maps/place/Morin,+22310+Plufur/@48.5924785,-3.582648,15z/data=!3m1!4b1!4m6!3m5!1s0x48117ec8bd898feb:0xa9bf00dd46603f6b!8m2!3d48.592479!4d-3.582648!16s%2Fg%2F1tqtx8pg?entry=ttu&g_ep=EgoyMDI2MDUwMi4wIKXMDSoASAFQAw%3D%3D' },
+            { label: 'Format', value: '3 jours\n2 nuits', color: '#F6CC45', Icon: Clock, link: null },
+            { label: 'Scène', value: '1 scène\nintérieure', color: '#5DB87E', Icon: Radio, link: null }
           ].map((info, idx) => {
             const content = (
               <div className="flex flex-col items-center text-center gap-3">
@@ -540,26 +540,7 @@ function CampingPage() {
 
               <text x="530" y="335" textAnchor="middle" fill="#2D5F3F" fontSize="15" fontWeight="bold" fontFamily="serif">Camping</text>
 
-              {/* Légende */}
-              <g transform="translate(20, 500)">
-                <circle cx="0" cy="0" r="4" fill="#FF4D8F" />
-                <text x="12" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Espace Chill</text>
-
-                <circle cx="110" cy="0" r="4" fill="#00C8D8" />
-                <text x="122" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Scène Vague</text>
-
-                <circle cx="220" cy="0" r="4" fill="#F6CC45" />
-                <text x="232" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Maison</text>
-
-                <circle cx="305" cy="0" r="4" fill="#5DB87E" />
-                <text x="317" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Parking</text>
-
-                <circle cx="390" cy="0" r="4" fill="#B565D8" />
-                <text x="402" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Toilettes</text>
-
-                <circle cx="480" cy="0" r="4" fill="#2D5F3F" />
-                <text x="492" y="4" fill="#E0F4F8" fontSize="11" opacity="0.8" fontFamily="serif">Camping</text>
-              </g>
+             
             </svg>
           </div>
 
@@ -571,7 +552,7 @@ function CampingPage() {
             Camping<em className="text-[#00C8D8] italic"> & bagages</em>
           </h2>
           <p className="text-sm text-[#4A8898] leading-[1.7] mt-2 mb-10 italic">
-            Tout ce qu'il faut savoir pour se sentir à l'aise pendant 3 jours. Ramène tes sardines, on t'as réservé un petit espace douillet pour poser ta tente
+            Tout ce qu'il faut savoir pour se sentir à l'aise pendant 3 jours. Ramène tes sardines, on t'a réservé un petit espace douillet pour poser ta tente
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[2px] mb-12">
