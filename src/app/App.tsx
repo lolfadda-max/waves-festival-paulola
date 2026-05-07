@@ -734,7 +734,6 @@ function CovoituragePage() {
     }
 
     await loadCovoiturage();
-    e.currentTarget.reset();
     setUserType(null);
   };
 
@@ -759,7 +758,6 @@ function CovoituragePage() {
     }
 
     await loadCovoiturage();
-    e.currentTarget.reset();
     setUserType(null);
   };
 
