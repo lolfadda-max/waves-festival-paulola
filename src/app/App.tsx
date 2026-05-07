@@ -425,8 +425,8 @@ function CampingPage() {
           </p>
 
           {/* Plan SVG */}
-          <div className="bg-gradient-to-br from-[#0A2A3A] to-[#071824] border border-[#1A3A4A] rounded-xl p-8 mb-8">
-            <svg viewBox="0 0 700 550" className="w-full h-auto">
+          <div className="bg-gradient-to-br from-[#0A2A3A] to-[#071824] border border-[#1A3A4A] rounded-xl p-2 md:p-8 mb-8">
+            <svg viewBox="0 0 700 550" className="w-full h-auto min-h-[400px] md:min-h-0">
               {/* Fond terrain */}
               <path d="M 120 80 Q 150 60 200 70 Q 280 85 380 90 Q 480 95 560 110 Q 610 125 630 180 Q 640 250 620 330 Q 600 400 550 440 Q 480 480 390 490 Q 300 495 220 480 Q 150 460 120 400 Q 90 340 100 260 Q 105 180 120 80 Z"
                     fill="#0A4A5E" opacity="0.2" />
@@ -761,9 +761,9 @@ function CovoituragePage() {
   let contactText = `🚗 Voiture ${driver.prenom} ${driver.nom}\n${driver.lieuDepart} → ${driver.lieuArrivee}\n\n`;
 
   if (type === 'instagram') {
-  contactText = allMembers.map((m: any) => m.instagram || '').filter(Boolean).join('\n');
+  contactText = allMembers.map((m: any) => m.instagram || '').filter(Boolean).join(' / ');
 } else if (type === 'telephone') {
-  contactText = allMembers.map((m: any) => m.telephone || '').filter(Boolean).join('\n');
+  contactText = allMembers.map((m: any) => m.telephone || '').filter(Boolean).join(' / ');
 } else {
   contactText = allMembers.map((m: any) =>
     `${m.instagram || ''} ${m.telephone || ''}`
