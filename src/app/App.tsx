@@ -1349,7 +1349,7 @@ function CovoituragePage() {
 
                           <div className="mt-3 p-3 bg-[#F6CC45]/10 border border-[#F6CC45]/30 rounded-lg">
                             <p className="text-xs text-[#E0F4F8] leading-relaxed">
-                              💡 <strong className="text-[#F6CC45]">Astuce :</strong> Utilisez le bouton "Copier tous les contacts" puis créez un groupe Instagram ou WhatsApp avec tous les membres pour organiser le trajet !
+                              💡 <strong className="text-[#F6CC45]">Astuce :</strong> Utilisez le bouton "Instagram" ou "Téléphone" pour copier les contacts, puis créez un groupe avec tous les membres pour organiser le trajet !
                             </p>
                           </div>
                         </div>
