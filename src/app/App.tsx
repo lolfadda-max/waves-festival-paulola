@@ -1008,7 +1008,7 @@ function CovoituragePage() {
             </div>
 
             <div className="mb-6">
-              <h4 className="text-[10px] tracking-[3px] text-[#00C8D8] font-medium mb-4 uppercase">Arrivée</h4>
+              <h4 className="text-[10px] tracking-[3px] text-[#00C8D8] font-medium mb-4 uppercase">Retour</h4>
               <div className="grid md:grid-cols-3 gap-4">
                 <div>
                   <label className="block text-[10px] tracking-[3px] text-[#4A8898] font-medium mb-2 uppercase">
@@ -1252,7 +1252,7 @@ function CovoituragePage() {
                       </div>
 
                       <div className="bg-[#071824]/50 p-4 rounded">
-                        <div className="text-[10px] tracking-[2px] text-[#00C8D8] font-medium mb-2 uppercase">Arrivée</div>
+                        <div className="text-[10px] tracking-[2px] text-[#00C8D8] font-medium mb-2 uppercase">Retour</div>
                         <div className="text-sm text-[#E0F4F8] mb-1">{driver.lieuArrivee}</div>
                         <div className="text-xs text-[#4A8898]">{driver.dateArrivee} à {driver.heureArrivee}</div>
                       </div>
