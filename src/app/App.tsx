@@ -220,7 +220,7 @@ function HomePage() {
 
           {/* Compte à rebours */}
           <div className="mb-8">
-            <h3 className="text-center text-[11px] tracking-[5px] text-[#007A8A] font-medium uppercase mb-8">
+            <h3 className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
               ✦ Compte à rebours
             </h3>
             <div className="bg-gradient-to-br from-[#091F2E] to-[#0A2A3A] border-2 border-[#00C8D8]/30 rounded-2xl p-6 max-w-[600px] mx-auto">
@@ -266,7 +266,7 @@ function HomePage() {
         </div>
 
         {/* Info grid - Plus grande et centrée */}
-        <h3 className="text-center text-[11px] tracking-[5px] text-[#007A8A] font-medium uppercase mb-8">
+       <h3 className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
           ✦ À retenir
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-16">
@@ -865,7 +865,7 @@ function CovoituragePage() {
           
         {!userType && (
         <div className="mb-12">
-          <p className="text-[10px] tracking-[5px] text-[#007A8A] font-medium uppercase mb-6">
+          <h3 className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
             ✦ Je suis...
           </p>
           <div className="grid md:grid-cols-2 gap-4 max-w-2xl">
