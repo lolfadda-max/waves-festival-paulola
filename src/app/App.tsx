@@ -852,7 +852,10 @@ function CovoituragePage() {
           Covoitu<em className="text-[#00C8D8] italic">rage</em>
         </h2>
         <p className="text-sm text-[#4A8898] leading-[1.7] mt-2 mb-10 italic">
-          Organise tes trajets, partage ta voiture ou trouve une place ! Attention, on n'oublie personne sur l'aire d'autoroute
+          Organise tes trajets, partage ta voiture ou trouve une place ! 
+          <br>Choose your fighter : passager ou conducteur, et renseigne toutes les infos demandées.</br>
+           <br>Passager : enregistres toi et incruste toi dans un trajet existant. Pas de panique, si aucun trajet proposé ne te convient pour le moment, tu pourras sélectionner une voiture plus tard</br>
+            <br>Conducteur : rentre ton trajet et le nombre de places dispo. Une fois la voiture complète, copie les instas ou les téléphones de tes passagers pour créer un groupe et t'organiser pour récupérer tout le monde.
         </p>
 
         {!userType && (
