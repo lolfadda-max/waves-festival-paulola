@@ -882,10 +882,9 @@ function CovoituragePage() {
           Covoitu<em className="text-[#00C8D8] italic">rage</em>
         </h2>
         <p className="text-sm text-[#4A8898] leading-[1.7] mt-2 mb-10 italic">
-            Organise tes trajets, partage ta caisse ou trouve une place !
-            <br />
             <br />
             Choose your fighter, passager ou conducteur, et renseigne tes infos.
+           <br />
             <br />
             <span className="font-semibold not-italic">Passager :</span> inscris-toi et greffe-toi à un trajet existant. Pas de panique, si aucun trajet ne te convient pour le moment, tu pourras en choisir un plus tard.
             <br />
