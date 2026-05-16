@@ -187,13 +187,13 @@ function ThemePage() {
 
       <div className="space-y-8 text-[15px] leading-[1.8] text-[#C0DDE8]">
         <p>
-          Pour cette première édition du Paulola Festoche, embarque avec nous et viens naviguer entre les vagues et les{' '}
+          Pour cette première édition du Paulola Festoche, embarque avec nous pour naviguer entre les vagues et les{' '}
           <span className="italic">(marées)</span> basses
         </p>
 
         <p>
           Au programme : embruns, vent qui coiffe mal, une scène aussi déchaînée qu'une nuit de tempête, un bar bière-cidre
-          pour réchauffer les bonnets rouges, et un stand paillettes pour draguer les crustacés.
+          pour réchauffer les bonnets rouges, un stand paillettes pour draguer les crustacés, un espace camping pour récupérer.
         </p>
 
         <div className="bg-[#FF4D8F1F] border-l-[3px] border-[#FF4D8F] p-6 rounded-r">
