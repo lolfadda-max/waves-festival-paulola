@@ -3,7 +3,7 @@ import { Calendar, MapPin, Clock, Radio, Menu, X } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState('home');f
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -90,7 +90,7 @@ export default function App() {
         {/* Top bar */}
         <div className="flex justify-between items-center px-6 md:px-12 pt-7">
           <div className="font-serif text-[13px] font-bold tracking-[6px] text-[#00C8D8] uppercase">
-            Paulola Festival
+            Paulola Festoche
           </div>
           <div className="hidden lg:block text-[11px] tracking-[3px] text-[#4A8898] font-normal">
             17 — 19 Juillet 2026 · Plufur, Bretagne
@@ -159,7 +159,7 @@ export default function App() {
       <footer className="relative z-5 px-6 md:px-12 py-10 border-t border-[#1A3A4A]">
         <div className="flex justify-between items-start flex-wrap gap-4">
           <div className="font-serif text-xl font-bold text-[#00C8D8] tracking-[2px]">
-            Paulola Festival
+            Paulola Festoche
           </div>
           <div className="flex flex-col gap-2 text-[11px] tracking-[2px] text-[#4A8898]">
             <div>Plufur · Bretagne · 17-19 Juillet 2026 · Accès privé</div>
@@ -187,7 +187,7 @@ function ThemePage() {
 
       <div className="space-y-8 text-[15px] leading-[1.8] text-[#C0DDE8]">
         <p>
-          Pour cette première édition du Paulola Festival, embarque avec nous et viens naviguer entre les vagues et les{' '}
+          Pour cette première édition du Paulola Festoche, embarque avec nous et viens naviguer entre les vagues et les{' '}
           <span className="italic">(marées)</span> basses
         </p>
 
@@ -342,7 +342,7 @@ function HomePage() {
         {/* L'essentiel */}
         <div className="bg-[#F6CC451F] border-l-[3px] border-[#F6CC45] p-6 rounded-r">
           <p className="text-[13px] leading-[1.7] opacity-80">
-            <strong className="text-[#F6CC45] font-medium">L'essentiel :</strong> Personne dans les maisons, tout le monde dehors. Paulola Festival est un festival privé qui va se dérouler chez papi Michel et chez maman Charlotte Desoblin, donc cette règle est à respecter pour que Paulo ne soit pas déshérité.
+            <strong className="text-[#F6CC45] font-medium">L'essentiel :</strong> Personne dans les maisons, tout le monde dehors. Paulola Festoche est un festival privé qui va se dérouler chez papi Michel et chez maman Charlotte Desoblin, donc cette règle est à respecter pour que Paulo ne soit pas déshérité.
           </p>
         </div>
       </div>
