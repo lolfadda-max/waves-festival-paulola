@@ -3,7 +3,7 @@ import { Calendar, MapPin, Clock, Radio, Menu, X } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('home');f
+  const [activeTab, setActiveTab] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
