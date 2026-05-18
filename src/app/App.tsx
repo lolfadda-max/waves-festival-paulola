@@ -246,10 +246,6 @@ function HomePage() {
           </p>
 
           {/* Compte à rebours */}
-          <div className="mb-8">
-            <h3 className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
-              ✦ Compte à rebours
-            </h3>
             <div className="bg-gradient-to-br from-[#091F2E] to-[#0A2A3A] border-2 border-[#00C8D8]/30 rounded-2xl p-6 max-w-[600px] mx-auto">
               <div className="flex justify-center items-center gap-2">
                 <div className="text-center">
@@ -293,12 +289,11 @@ function HomePage() {
         </div>
 
         {/* Section Organisateurs */}
-<div className="mb-10">
-  <p className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6 flex items-center justify-center gap-3">
-    <span className="block h-px w-10 bg-[#00C8D8] opacity-40" />
-     ✦ Les stars
-    <span className="block h-px w-10 bg-[#00C8D8] opacity-40" />
-  </p>
+        <div className="mb-8">
+            <h3 className="text-[10px] text-center tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
+              ✦ Les stars
+            </h3>
+        </div>
 
   <div className="flex items-center justify-center gap-8">
 
