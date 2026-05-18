@@ -311,7 +311,7 @@ function HomePage() {
     {/* Photo */}
     <div className="w-[180px] h-[230px] border border-[#00C8D8]/30 rounded-md overflow-hidden flex-shrink-0">
       <img
-        src="/waves-festival-paulola/src/imports/nous-deux.jpg"
+        src="src/imports/nous-deux.jpg"
         alt="Lola et Paul"
         className="w-full h-full object-cover object-top"
       />
