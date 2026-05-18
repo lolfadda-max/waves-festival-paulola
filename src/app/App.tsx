@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Calendar, MapPin, Clock, Radio, Menu, X } from 'lucide-react';
 import { supabase } from '../lib/supabase';
+import { nousDeux } from '../imports/nous-deux.jpg';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
@@ -311,7 +312,7 @@ function HomePage() {
     {/* Photo */}
     <div className="w-[180px] h-[230px] border border-[#00C8D8]/30 rounded-md overflow-hidden flex-shrink-0">
       <img
-        src="src/imports/nous-deux.jpg"
+        src={nousDeux}
         alt="Lola et Paul"
         className="w-full h-full object-cover object-top"
       />
