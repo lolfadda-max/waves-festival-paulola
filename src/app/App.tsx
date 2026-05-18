@@ -184,18 +184,17 @@ function ThemePage() {
       <h2 className="font-serif text-[clamp(32px,5vw,56px)] font-bold text-[#E0F4F8] leading-tight mb-10">
         Le <em className="text-[#00C8D8] italic">thème</em>
       </h2>
+      <p className="text-sm text-[#4A8898] leading-[1.7] mt-2 mb-10 italic">
+            Pour cette première édition du Paulola Festoche, embarque avec nous pour naviguer entre les vagues et les{' '}
+          <span className="italic">(marées)</span> basses
+       </p>
 
       <div className="space-y-8 text-[15px] leading-[1.8] text-[#C0DDE8]">
-        <p>
-          Pour cette première édition du Paulola Festoche, embarque avec nous pour naviguer entre les vagues et les{' '}
-          <span className="italic">(marées)</span> basses
-        </p>
-
         <p>
           Au programme : embruns, vent qui coiffe mal, une scène aussi déchaînée qu'une nuit de tempête, un bar bière-cidre
           pour réchauffer les bonnets rouges, un stand paillettes pour draguer les crustacés, un espace camping pour récupérer.
         </p>
-
+              
         <div className="bg-[#FF4D8F1F] border-l-[3px] border-[#FF4D8F] p-6 rounded-r">
           <p className="text-[13px] leading-[1.7] opacity-80">
             <strong className="text-[#FF4D8F] font-medium">Le dress code (ou pas) :</strong>{' '}
@@ -882,7 +881,6 @@ function CovoituragePage() {
           Covoitu<em className="text-[#00C8D8] italic">rage</em>
         </h2>
         <p className="text-sm text-[#4A8898] leading-[1.7] mt-2 mb-10 italic">
-            <br />
             Choose your fighter, passager ou conducteur, et renseigne tes infos.
            <br />
             <br />
