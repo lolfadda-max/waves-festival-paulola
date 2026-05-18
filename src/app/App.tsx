@@ -877,19 +877,18 @@ function CovoituragePage() {
   return (
     <div className="animate-fade-up px-6 md:px-12 py-16 pb-20">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="font-serif text-5xl font-bold text-[#E0F4F8] mb-2 leading-[1.1]">
+        <h2 className="font-serif text-5xl font-bold text-[#E0F4F8] mb-3 leading-[1.1]">
           Covoitu<em className="text-[#00C8D8] italic">rage</em>
         </h2>
-      <p className="text-sm text-[#4A8898] leading-[1.7] mb-12">
-            Choose your fighter, passager ou conducteur, et renseigne tes infos.
-           <br />
-            <br />
-            <span className="font-semibold not-italic">Passager :</span> inscris-toi et greffe-toi à un trajet existant. Pas de panique, si aucun trajet ne te convient pour le moment, tu pourras en choisir un plus tard.
+        <p className="text-sm text-[#4A8898] leading-[1.7] mb-12">
+          Choose your fighter, passager ou conducteur, et renseigne tes infos.
+        </p>
+        <p className=" text-sm text-[15px] opacity-75 leading-[1.8] mb-12">
+          <span className="font-semibold not-italic">Passager :</span> inscris-toi et greffe-toi à un trajet existant. Pas de panique, si aucun trajet ne te convient pour le moment, tu pourras en choisir un plus tard.
             <br />
             <span className=" font-semibold not-italic">Conducteur :</span> rentre ton trajet et le nombre de places dispo. Une fois la voiture complète, copie les Instas ou les téléphones de tes passagers pour créer un groupe et t'organiser pour récupérer tout le monde.
           </p>
-
-          
+         
         {!userType && (
         <div className="mb-12">
           <h3 className="text-[10px] tracking-[4px] text-[#00C8D8] font-semibold uppercase mb-6">
