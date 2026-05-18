@@ -188,7 +188,7 @@ function ThemePage() {
         <p className="text-sm text-[#4A8898] leading-[1.7] mb-12">
         Embarque avec nous pour naviguer entre vagues et (marées) basses
         </p>
-        <p className=" text-sm text-[15px] leading-[1.8] mb-12">
+        <p className=" text-sm text-[15px] opacity-75 leading-[1.8] mb-12">
           Au programme : embruns, vent qui coiffe mal, une scène aussi déchaînée qu'une nuit de tempête, un bar bière-cidre
           pour réchauffer les bonnets rouges, un stand paillettes pour draguer les crustacés, un espace camping pour récupérer.
         </p>
